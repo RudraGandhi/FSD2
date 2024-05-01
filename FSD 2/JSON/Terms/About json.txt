@@ -1,0 +1,15 @@
+Javascript object notation json is an open standard for exchange the data on the web. It support data stucture like object and array it is language independant json format is text only so it can easily send and receive from server and used as data format by any programming language.
+
+-> Rules for json format
+
+1. Data is in name or in key/value format
+2. It is eprated by comma
+3. {} is for object, [] is for array
+
+-> json datatypes
+
+string, number, object, array, boolean, none
+
+-> json datatypes not supported
+
+function, date, undefined

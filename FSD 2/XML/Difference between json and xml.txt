@@ -1,0 +1,5 @@
+json support array; xml doesnot support array
+json is less secure than xml; xml is more secure
+json has no tags; xml is represented using tags
+json are string, boolean, number, array and object; xml are in string format
+json files are more human readable than xml; xml files are less human readable

@@ -1,0 +1,45 @@
+<!-- JSON Object -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="myid">
+
+    </div>
+    <script>
+        let obj1 = {
+            "name" : "Rudra",
+            "age" : 19
+        };
+        let name = obj1.name;
+        let age = obj1.age;
+        document.getElementById("myid").innerHTML = "name : "+name+ "<br>age : "+age+"<br>";
+
+        for(let i in obj1)
+        {
+            document.getElementById("myid").innerHTML += i+ " : " +obj1[i]+ "<br>"
+        }
+
+        let obj2 = {
+            "name" : "abc",
+            "address" : {
+                "course1" : "B.Tech",
+                "course2" : "M.Tech"
+            },
+            "city" : "Pune"
+        };
+        document.getElementById("myid").innerHTML += "Course2 : "+obj2.address.course2+"<br>";
+
+        for(let i in obj2.address)
+        {
+            document.getElementById("myid").innerHTML += "Course : "+obj2.address[i];
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+NodeJS = Runtime enviournment + JS library
+
+REPL = Read Evaluate Print Loop
+
+-> Commands in node REPL
+
+.save filename - save the current session to a file
+
+.load filename - load a file into the current session
+
+.exit - exit the REPL
+
+.break - stop any further execution of the current script
+
+.clear - clear the REPL context

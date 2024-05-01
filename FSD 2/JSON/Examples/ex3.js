@@ -1,0 +1,1 @@
+/* write json object which contains array of 3 object each object contains two properties name and age now sort the array of object based on age in decending order print name in the terminal as per name */
